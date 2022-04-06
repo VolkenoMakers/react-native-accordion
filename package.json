@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Accordition package for react native",
   "scripts": {
-    "build": "nest build @volkenomakers/react-native-accordion",
-    "prepare": "yarn run build"
+    "build": "nest build @volkenomakers/react-native-accordion && npm run copy:assets",
+    "copy:assets": "cpx 'src/lib/*.png' 'dist/lib'",
+    "prepare": "npm run build"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -36,5 +37,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/VolkenoMakers/react-native-accordion/issues"
+  },
+  "dependencies": {
+    "cpx": "^1.5.0"
   }
 }

@@ -33,7 +33,7 @@ export function Accordition({
 }: AccorditionProps) {
   const [show, setShow] = React.useState(false);
 
-  let titleComponent: ReactElement = null;
+  let titleComponent: ReactElement | null = null;
   if (typeof title === "string") {
     titleComponent = <Text style={titleStyle}>{title}</Text>;
   } else {
