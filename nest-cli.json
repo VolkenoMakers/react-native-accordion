@@ -1,0 +1,8 @@
+{
+  "@volkenomakers/react-native-accordion": {
+    "type": "library",
+    "root": "./",
+    "entryFile": "index",
+    "sourceRoot": "./src"
+  }
+}

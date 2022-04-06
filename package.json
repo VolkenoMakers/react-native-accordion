@@ -1,0 +1,40 @@
+{
+  "name": "@volkenomakers/react-native-accordion",
+  "version": "1.0.0",
+  "description": "Accordition package for react native",
+  "scripts": {
+    "build": "nest build @volkenomakers/react-native-accordion",
+    "prepare": "yarn run build"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VolkenoMakers/react-native-accordion.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "react-native-accordion",
+    "babacarMbengue12",
+    "volkeno",
+    "collapse",
+    "expo"
+  ],
+  "author": "volkenomakers",
+  "peerDependencies": {
+    "react": "^16.0.0-beta.5",
+    "react-native": "^0.49.1"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.66.10",
+    "typescript": "^4.5.4"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VolkenoMakers/react-native-accordion/issues"
+  }
+}
